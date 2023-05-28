@@ -16,7 +16,7 @@
  * @next: points to the next element of the stack (or queue)
  *
  * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO ALX SE
  */
 typedef struct stack_s
 {
@@ -35,7 +35,7 @@ typedef struct stack_s
  * @buffer: input text
  *
  * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, for ALX SE
  */
 typedef struct globals
 {
@@ -53,7 +53,7 @@ typedef struct globals
  * @f: function to handle the opcode
  *
  * Description: opcode and its function
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO for ALX SE
  */
 typedef struct instruction_s
 {
@@ -101,3 +101,4 @@ void free_dlistint(stack_t *head);
 void free_vglo(void);
 
 #endif
+
